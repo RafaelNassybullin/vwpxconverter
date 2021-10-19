@@ -151,7 +151,7 @@ input:focus {
 @media (max-width: 745px) {
   ._slide-tip {
     right: 23vw;
-    top: 20vw;
+    top: 30vw;
   }
 }
 
