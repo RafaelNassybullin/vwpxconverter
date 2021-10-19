@@ -5,10 +5,10 @@ let answer = document.querySelector('.answer');
 let setScreenWidth = document.querySelector('.setScreenWidth');
 let tip = document.querySelector('.tip');
 
+
 setScreenWidth.addEventListener('click', () => {
     viewport.value = window.innerWidth;
 })
-
 
 result.addEventListener('click', () => {
     let r = px.value / viewport.value * 100;
